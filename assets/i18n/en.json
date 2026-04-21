@@ -182,6 +182,7 @@
     "aboutUs": "About Us",
     "latestBlog": "Latest Blog",
     "popularServices": "Popular Services",
+    "destinations": "Destinations",
     "copyright": "© IFRIYA - Discover Tunisia. All Rights Reserved."
   },
   "packages": {
@@ -230,5 +231,34 @@
     "blogDetails": "Blog Article",
     "pageNotFound": "Page Not Found",
     "pageNotFoundDesc": "The page you are looking for might have been removed, had its name changed or is temporarily unavailable."
+  },
+  "tourDetails": {
+    "home": "Home",
+    "tourDetailsPage": "Tour Details",
+    "location": "Location",
+    "activitiesType": "Activities Type",
+    "duration": "Duration",
+    "travelers": "Travelers",
+    "perPerson": "Per Person",
+    "tourBooking": "Tour Booking",
+    "selectDate": "Select Date",
+    "selectTime": "Select Time",
+    "tickets": "Tickets",
+    "selectQuantity": "Select Quantity",
+    "person": "Person",
+    "person1": "1 Person",
+    "persons2": "2 Persons",
+    "persons3": "3 Persons",
+    "persons4": "4 Persons",
+    "persons5": "5 Persons",
+    "adult": "Adult",
+    "child": "Child",
+    "total": "Total",
+    "overview": "Overview",
+    "experience": "Experience the Difference",
+    "leaveComment": "Leave A Comment",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "writeComment": "Write a comment..."
   }
 }
