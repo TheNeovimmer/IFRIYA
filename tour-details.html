@@ -1,0 +1,669 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+    
+<!-- IFRIYA - Tunisia Travel Discovery -->
+<head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Title -->
+        <title>IFRIYA - Discover Tunisia's Best Destinations</title>
+
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/scrollCue.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        <style>
+            .lang-switcher {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                padding: 8px 14px;
+                background: #e67e22;
+                color: #fff;
+                border: none;
+                border-radius: 25px;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                min-width: 50px;
+                font-size: 14px;
+            }
+            .lang-switcher:hover {
+                background: #d35400;
+                transform: scale(1.05);
+            }
+            .lang-switcher i {
+                font-size: 16px;
+            }
+            .mobile-lang-switcher {
+                width: 100%;
+                justify-content: flex-start;
+                padding: 12px 16px;
+                background: transparent;
+                color: #333;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                margin-top: 10px;
+                font-size: 16px;
+            }
+            .mobile-lang-switcher:hover {
+                background: #e67e22;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <!-- Scroll Smoother -->
+        <div class="has-smooth" id="has_smooth"></div>
+        <!-- Start Top Header Area -->
+
+        <!-- Start Preloader Area -->
+        <!-- <div id="preloader">
+			<div id="container" class="container-preloader">
+				<div class="animation-preloader">
+					<div class="spinner"></div>
+					<div class="txt-loading">
+					</div>
+				</div>	
+				<div class="loader-section section-left"></div>
+				<div class="loader-section section-right"></div>
+			</div>
+		</div> -->
+        <!-- End Preloader Area -->
+        
+        <!-- Start Navbar Area -->
+        <nav class="navbar navbar-expand-lg navbar-area style-2 bg-transparent" id="navbar">
+            <div class="container-fluid side-padding position-relative">
+                <a class="navbar-brand logo-brand p-0" href="index.html">
+                    <img class="main-logo" src="assets/images/footer-logo.png" alt="image">
+                </a>
+                <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#offcanvasRight" role="button"
+                    aria-controls="offcanvasRight">
+                    <span class="burger-menu">
+                        <span class="top-bar"></span>
+                        <span class="middle-bar"></span>
+                        <span class="bottom-bar"></span>
+                    </span>
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+<a class="nav-link" href="index.html" data-i18n="nav.home">
+                                Home
+                            </a>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html" data-i18n="nav.services">
+                                Services
+                            </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="destinations.html" data-i18n="nav.destinations">
+                                Destinations
+                            </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="tours.html" data-i18n="nav.tours">
+                                Tours
+                            </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html" data-i18n="nav.blog">
+                                Blog
+                            </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact-us.html" data-i18n="nav.contact">
+                                Contact Us
+                            </a>
+                            </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">
+                                Services
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="destinations.html">
+                                Destinations
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="tours.html">
+                                Tours
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">
+                                Blog
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="others-options">
+                    <div class="menu d-flex align-items-center gap-2 gap-md-4">
+                        <button type="button" class="search-btn fw-medium p-0 border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="ri-search-line search-btn"></i>
+                        </button>
+                        <a href="tour-details.html" class="default-btn" data-i18n="buttons.exploreMore">Explore More</a>
+                        <button class="lang-switcher" aria-label="Switch language">FR</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar Area -->
+        
+        <!-- Start Mobile Menu -->
+        <div class="side-modal mobile-navbar offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="mobile-menu">
+                    <li class="mobile-menu-list">
+                        <a href="index.html" data-i18n="nav.home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="mobile-menu-list">
+                        <a href="services.html" data-i18n="nav.services">
+                            Services
+                        </a>
+                    </li>
+
+                    <li class="mobile-menu-list">
+                        <a href="destinations.html" data-i18n="nav.destinations">
+                            Destinations
+                        </a>
+                    </li>
+
+                    <li class="mobile-menu-list">
+                        <a href="tours.html" data-i18n="nav.tours">
+                            Tours
+                        </a>
+                    </li>
+
+                    <li class="mobile-menu-list">
+                        <a href="blog.html" data-i18n="nav.blog">
+                            Blog
+                        </a>
+                    </li>
+
+                    <li class="mobile-menu-list">
+                        <a href="contact-us.html" data-i18n="nav.contact">
+                            Contact Us
+                        </a>
+                    </li>
+                    <li class="mobile-menu-list">
+                        <button class="lang-switcher mobile-lang-switcher" aria-label="Switch language">FR</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Mobile Menu -->
+
+        <!-- Start Modal Area -->
+        <div class="modal-area">
+            <div class="modal fade" id="exampleModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header p-0">
+                            <button type="button" class="search-btn" data-bs-dismiss="modal" aria-label="Close">
+                                <i class="ri-close-large-line"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="popup-form">
+                                <input type="text" class="form-control" placeholder="Search here...">
+                                <button type="submit" class="p-btn">
+                                    <i class="ri-search-line"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal Area -->
+
+        <!-- Start Page Banner Area -->
+        <div class="page-banner-area bg-center bg-cover bg-no-repeat position-relative z-1 px-150" style="background-image: url(assets/images/hero/page-banner-image.jpg);">
+            <div class="container">
+                <div class="page-banner-content">
+                    <h2 class="fs-50 text-white mb-4" data-i18n="pageTitles.tourDetails">Tour Details</h2>
+                    <ul class="pe-0 ps-0 mb-0 list-unstyled align-items-center d-flex align-items-center gap-3">
+                        <li class="d-flex align-items-center gap-2">
+                            <a href="index.html" class="text-g fs-18 fw-medium">
+                                <i class="ri-home-8-fill text-g fs-18"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <i class="ri-arrow-right-long-line text-g fs-20"></i>
+                        </li>
+                        <li class="text-g fs-18 fw-medium">
+                            Tour Details
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Page Banner Area -->
+         
+        <!-- Start Default Details Area -->
+        <div class="default-details-area pxy-150">
+            <div class="container-fluid wa-padding">
+                <div class="tour-details-content mb-4 mb-lg-5">
+                    <div class="tour-details-image position-relative">
+                        <img class="rounded-5" src="assets/images/tours/t-details-image.jpg" alt="image">
+                        <div class="tour-activitis mt-4 mt-lg-0 d-lg-flex align-items-center justify-content-between">
+                            <div class="tours-warps d-flex mb-lg-0 mb-3 align-items-center gap-3">
+                                <div class="icon">
+                                    <i class="ri-map-pin-line"></i>
+                                </div>
+                                <div class="content">
+                                    <h3 class="fs-25 mb-2">Location</h3>
+                                    <span>Bhutan, India</span>
+                                </div>
+                            </div>
+                            <div class="tours-warps d-flex mb-lg-0 mb-3 align-items-center gap-3">
+                                <div class="icon">
+                                    <i class="ri-tent-line"></i>
+                                </div>
+                                <div class="content">
+                                    <h3 class="fs-25 mb-2">Activities Type</h3>
+                                    <span>Adventure</span>
+                                </div>
+                            </div>
+                            <div class="tours-warps d-flex mb-lg-0 mb-3 align-items-center gap-3">
+                                <div class="icon">
+                                    <i class="ri-time-line"></i>
+                                </div>
+                                <div class="content">
+                                    <h3 class="fs-25 mb-2">Activate Day</h3>
+                                    <span>Feb 6 - Feb 16</span>
+                                </div>
+                            </div>
+                            <div class="tours-warps d-flex mb-lg-0 mb-3 align-items-center gap-3">
+                                <div class="icon">
+                                    <i class="ri-group-line"></i>
+                                </div>
+                                <div class="content">
+                                    <h3 class="fs-25 mb-2">Traveler</h3>
+                                    <span>05</span>
+                                </div>
+                            </div>
+                            <div class="t-btn">
+                                <a href="#" class="default-btn">Per Person</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-xl-4 col-lg-4 col-md-12">
+                        <div class="default-sidebar">
+                            <div class="tour-booking bg-background1">
+                                <h2>Tour Booking</h2>
+                                <form class="tour-booking-form">
+                                    <div class="form-group mb-3">
+                                        <input type="date" class="form-control">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <input type="time" class="form-control">
+                                    </div>
+                                    <label class="form-label fw-medium fs-20 text-black">Tickets</label>
+                                    <select class="form-select mb-4">
+                                        <option selected>Select Quantity</option>
+                                        <option value="1">1 Person</option>
+                                        <option value="2">2 Persons</option>
+                                        <option value="3">3 Persons</option>
+                                        <option value="4">4 Persons</option>
+                                        <option value="5">5 Persons</option>
+                                        <option value="6">6 Persons</option>
+                                        <option value="7">7 Persons</option>
+                                        <option value="8">8 Persons</option>
+                                        <option value="9">9 Persons</option>
+                                    </select>
+                                    <h3 class="fs-20 mb-3">Extra Services</h3>
+                                    <label class="checkbox-single two d-flex justify-content-between align-items-center mb-2">
+                                        <span class="d-flex gap-xl-3 gap-2 align-items-center">
+                                            <span class="checkbox-area  d-center">
+                                                <input  class="form-check-input" type="checkbox" value="" id="checkDefault">
+                                                <span class="checkmark d-center"></span>
+                                            </span>
+                                            <span class="fw-medium fs-18 d-block">
+                                                Services Per Person
+                                            </span>
+                                        </span>
+                                        <span class="fw-medium fs-18 d-block">25 DT</span>
+                                    </label>
+                                    <label class="checkbox-single two d-flex justify-content-between align-items-center mb-4">
+                                        <span class="d-flex gap-xl-3 gap-2 align-items-center">
+                                            <span class="checkbox-area  d-center">
+                                                <input  class="form-check-input" type="checkbox" value="" id="checkDefault1">
+                                                <span class="checkmark d-center"></span>
+                                            </span>
+                                            <span class="fw-medium fs-18 d-block">
+                                               Services Per Booking
+                                            </span>
+                                        </span>
+                                        <span class="fw-medium fs-18 d-block">25 DT</span>
+                                    </label>
+                                    <ul class="pe-0 ps-0 mb-30 list-unstyled">
+                                        <li class="d-flex align-items-center justify-content-between mb-2">
+                                            <span class="fs-18 text-black">Adult:</span>
+                                            <span class="fs-18 text-black">29 DT</span>
+                                        </li>
+                                        <li class="d-flex align-items-center justify-content-between mb-2">
+                                            <span class="fs-18 text-black">Chlid:</span>
+                                            <span class="fs-18 text-black">19 DT</span>
+                                        </li>
+                                        <li class="d-flex align-items-center justify-content-between mb-2">
+                                            <span class="fs-18 text-black fw-semibold d-block">Total:</span>
+                                            <span class="fs-18 text-black fw-semibold d-block">48 DT</span>
+                                        </li>
+                                    </ul>
+                                    <button type="submit" class="default-btn w-100 text-center" data-i18n="buttons.bookNow">Book Now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-12">
+                        <div class="default-details-content">
+                            <h3>Overview</h3>
+                            <p>Consectetur adipisicing elit sed do eiusmod tempor is incididunt ut labore et dolore of magna aliqua. ut enim ad minim veniam made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat duis aute irure and dolor in reprehenderit.Nullam semper quam mauris nec mollis felis aliquam eu ut non gravida mi quam mauris nec mollis felis aliquam phasellus.</p>
+                            <p class="mb-40">Consectetur adipisicing elit sed do eiusmod tempor is incididunt ut labore et dolore of magna aliqua. ut enim ad minim veniam made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat duis aute irure and dolor in reprehenderit.Nullam semper quam mauris.</p>
+                            <h3 class="mb-30">Experience the Difference</h3>
+                            <div class="tour-items mb-30">
+                                <div class="row g-2">
+                                    <div class="col-lg-6 col-md-6">
+                                        <ul class="pe-0 ps-0 mb-0 list-unstyled">
+                                            <li class="d-flex align-items-center gap-2 mb-2">
+                                                <i class="ri-checkbox-circle-fill fs-20 c-info"></i>
+                                                Trusted, Local Travel Experts
+                                            </li>
+                                            <li class="d-flex align-items-center gap-2 mb-2">
+                                                <i class="ri-checkbox-circle-fill fs-20 c-info"></i>
+                                                Flexible, Hassle-Free Bookings
+                                            </li>
+                                            <li class="d-flex align-items-center gap-2 mb-2">
+                                                <i class="ri-checkbox-circle-fill fs-20 c-info"></i>
+                                                Real-Time Itinerary Updates
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <ul class="pe-0 ps-0 mb-0 list-unstyled">
+                                            <li class="d-flex align-items-center gap-2 mb-2">
+                                                <i class="ri-checkbox-circle-fill fs-20 c-info"></i>
+                                                Flexible Cancellation Policies
+                                            </li>
+                                            <li class="d-flex align-items-center gap-2 mb-2">
+                                                <i class="ri-checkbox-circle-fill fs-20 c-info"></i>
+                                                Customized Travel Experiences
+                                            </li>
+                                            <li class="d-flex align-items-center gap-2 mb-2">
+                                                <i class="ri-checkbox-circle-fill fs-20 c-info"></i>
+                                                Exclusive Travel Deals
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tour-image mb-4 mb-lg-5">
+                                <div class="row g-3">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="t-image">
+                                            <img class="br-10" src="assets/images/tours/tours-image-a.jpg" alt="image">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="t-image">
+                                            <img class="br-10" src="assets/images/tours/tours-image-b.jpg" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-items mb-4 mb-lg-5">
+                                <div class="review-card d-sm-flex align-items-center gap-4 mb-4">
+                                    <div class="review-image flex-shrink-0 mb-3 mb-sm-0">
+                                        <img class="rounded-circle" src="assets/images/user/u-image-1.jpg" alt="image">
+                                    </div>
+                                    <div class="review-content">
+                                        <div class="header d-flex align-items-center justify-content-between">
+                                            <h3 class="fs-25 mb-3">Moris Barbar</h3>
+                                            <a href="#">Reply</a>
+                                        </div>
+                                        <p>Consectetur adipisicing elit sed do eiusmod tempor is incididunt ut labore et dolore of magna aliqua ut enim ad minim veniam made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat duis aute irure and dolor in reprehenderit.Nullam semper quam mauris.</p>
+                                    </div>
+                                </div>
+                                <div class="review-card d-sm-flex align-items-center gap-4 style-left">
+                                    <div class="review-image flex-shrink-0 mb-3 mb-sm-0">
+                                        <img class="rounded-circle" src="assets/images/user/u-image-2.jpg" alt="image">
+                                    </div>
+                                    <div class="review-content">
+                                        <div class="header d-flex align-items-center justify-content-between">
+                                            <h3 class="fs-25 mb-3">Jhon Smith</h3>
+                                            <a href="#">Reply</a>
+                                        </div>
+                                        <p>Consectetur adipisicing elit sed do eiusmod tempor is incididunt ut labore et dolore of magna aliqua ut enim ad minim veniam made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat duis aute irure and dolor in reprehenderit.Nullam semper quam mauris.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="leave-card">
+                                <h3 class="mb-30">Leave A Comments</h3>
+                                <form class="leave-form">
+                                    <div class="row g-4">
+                                        <div class="col-lg-6 col-md-6">
+                                            <input type="text" class="form-control" placeholder="Name">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <input type="text" class="form-control" placeholder="Email">
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <input type="text" class="form-control" placeholder="Your Website">
+                                        </div>
+                                        <div class="col-lg-12 col-md-12">
+                                            <textarea class="form-control textarea" placeholder="Comment"></textarea>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="default-btn mt-4" data-i18n="buttons.postComment">Post A Comment <i class="ti ti-arrow-narrow-right"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Default Details Area -->
+         
+        <!-- Start Footer Area -->
+        <div class="footer-area pxy-150 bg-info1 position-relative">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
+                        <div class="footer-widget pe-xxl-4">
+                            <div class="footer-logo mb-30">
+                                <a href="index.html">
+                                    <img src="assets/images/footer-logo.png" alt="image" style="max-width: 140px;">
+                                </a>
+                            </div>
+                            <h3 class="fs-25 mb-3 text-white" data-i18n="newsletter.title">Subscribe to Our Newsletter</h3>
+                            <p class="mb-4 text-g" data-i18n="newsletter.description">Receive our latest news and special offers.</p>
+                            <form class="newsletter-form">
+                                <input type="text" class="form-control" placeholder="Enter Your Email">
+                                <button type="submit" class="seand"><i class="ri-send-plane-line"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                        <div class="footer-widget">
+                            <h3 class="fs-25 mb-4 text-white" data-i18n="footer.quickLinks">Quick Links</h3>
+                            <ul class="pe-0 ps-0 mb-0 list-unstyled">
+                                <li class="mb-2 mb-md-3">
+<a href="about-us.html" data-i18n="footer.aboutUs">
+                                         About Us
+                                     </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+<a href="destinations.html" data-i18n="footer.destinations">
+                                         Destinations
+                                     </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+<a href="blog.html" data-i18n="footer.latestBlog">
+                                         Latest Blog
+                                     </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+<a href="tours.html" data-i18n="footer.tourPackages">
+                                         Tour Packages
+                                     </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+<a href="services.html" data-i18n="footer.popularServices">
+                                         Popular Services
+                                     </a>
+                                </li>
+                                <li>
+<a href="contact-us.html" data-i18n="footer.contactUs">
+                                         Contact Us
+                                     </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                        <div class="footer-widget">
+                            <h3 class="fs-25 mb-4 text-white" data-i18n="footer.popularTours">Popular Tours</h3>
+                            <ul class="pe-0 ps-0 mb-0 list-unstyled">
+                                <li class="mb-2 mb-md-3">
+                                    <a href="about-us.html">
+                                        Maldives Luxury Escape
+                                    </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+                                    <a href="destinations.html">
+                                        Thailand Adventure Tour
+                                    </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+                                    <a href="blog.html">
+                                        Dubai Holiday Package
+                                    </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+                                    <a href="tours.html">
+                                        Dubai Holiday Package
+                                    </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+                                    <a href="services.html">
+                                        River Rafting Thrill Tour
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact-us.html">
+                                        India Golden Triangle Tour
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-3 col-lg-6 col-md-6">
+                        <div class="footer-widget left-padding">
+                            <h3 class="fs-25 mb-4 text-white" data-i18n="footer.contactUs">Contact Us</h3>
+                            <div class="contact-warps mb-3 mb-md-4 d-flex align-items-center gap-2 gap-md-4">
+                                <div class="icon">
+                                    <i class="ri-phone-line"></i>
+                                </div>
+                                <div class="content">
+                                    <span class="d-block mb-2" data-i18n="footer.callUs">Call Us 7/24</span>
+                                    <a href="tel:+216XXXXXXXX" class="fs-18">+216 XX XXX XXXX</a>
+                                </div>
+                            </div>
+                            <div class="contact-warps mb-3 mb-md-4 d-flex align-items-center gap-2 gap-md-4">
+                                <div class="icon">
+                                    <i class="ri-map-pin-line"></i>
+                                </div>
+                                <div class="content">
+                                    <span class="d-block mb-2" data-i18n="footer.location">Location</span>
+                                    <a href="https://www.google.com/maps/search/1234+Builder+Avenue,+Suite+200,+Houston,+TX+77002,+US+map/@29.7535089,-95.3925406,6049m/data=!3m2!1e3!4b1?entry=ttu&amp;g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D" class="fs-18">Tunis, Tunisia</a>
+                                </div>
+                            </div>
+                            <div class="contact-warps d-flex align-items-center gap-2 gap-md-4">
+                                <div class="icon">
+                                    <i class="ri-mail-open-line"></i>
+                                </div>
+                                <div class="content">
+                                    <span class="d-block mb-2" data-i18n="footer.mailUs">Mail Us</span>
+                                    <a href="mailto:contact@ifriya.tn" class="fs-18">contact@ifriya.tn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shape-image">
+                <img class="shape" src="assets/images/shapes/plane1.png" alt="image">
+            </div>
+        </div>
+        <!-- End Footer Area -->
+         
+        <!-- Start Copyright Area -->
+        <div class="copyright-area border-top border-opacity-50 py-4 py-xl-4 overflow-hidden bg-info1">
+            <div class="container-fluid wa-padding">
+                <p class="text-white mb-0 text-center" data-i18n="footer.copyright">
+                    © IFRIYA - Discover Tunisia. All Rights Reserved. 
+                    
+                </p>
+            </div>
+        </div>
+        <!-- End Copyright Area -->
+         
+        <!-- Start Go Top Button -->
+        <div class="go-top d-flex align-items-center active">
+            <i class="ri-arrow-up-long-line"></i>
+        </div>
+        <!-- End Go Top Button -->
+
+        <!-- JS Files -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/smoothscroll.min.js"></script>
+        <script src="assets/js/fslightbox.min.js"></script>
+        <script src="assets/js/scrollCue.min.js"></script>
+        <script src="assets/js/i18n.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+
+<!-- IFRIYA - Tunisia Travel Discovery -->
+</html>

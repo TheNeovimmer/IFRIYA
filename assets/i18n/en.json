@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "siteTitle": "IFRIYA - Discover Tunisia's Best Destinations",
+    "siteDescription": "Your trusted travel partner for discovering Tunisia's most beautiful destinations"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "destinations": "Destinations",
+    "tours": "Tours",
+    "blog": "Blog",
+    "contact": "Contact Us",
+    "exploreMore": "Explore More"
+  },
+  "hero": {
+    "subtitle": "Voyage & Discovery in Tunisia",
+    "title": "Discover Tunisia's Best Destinations",
+    "description": "Explore the magical regions of Tunisia, from Djerba to the mountains of Ain Drahem. An unforgettable adventure awaits you!",
+    "discoverMore": "Discover More",
+    "getInTouch": "Get In Touch"
+  },
+  "booking": {
+    "location": "Region",
+    "selectLocation": "Select Region",
+    "tourType": "Tour Type",
+    "selectTourType": "Tour Type",
+    "tourDate": "Tour Date",
+    "activity": "Activity",
+    "selectActivity": "Select Activity",
+    "guests": "Guests",
+    "selectGuests": "Guests",
+    "search": "Search"
+  },
+  "about": {
+    "subtitle": "About IFRIYA",
+    "title": "Your Travel Partner in Tunisia",
+    "easyBooking": "Easy & Quick Booking",
+    "bestPrice": "Best Price Guarantee",
+    "localGuides": "Local Expert Guides",
+    "customTours": "Custom Tours",
+    "mission": "Our Mission",
+    "missionText": "To help you discover Tunisia's authenticity, its villages, deserts and Mediterranean coasts.",
+    "expertise": "Local Expertise",
+    "expertiseText": "Over 10 years of experience offering the best tours and excursions in Tunisia."
+  },
+  "features": {
+    "chooseDestination": "Choose Destination",
+    "chooseDestinationText": "Select your preferred destination and proceed with your booking.",
+    "makePayment": "Make Payment",
+    "makePaymentText": "Secure and easy payment options for your peace of mind.",
+    "readyTravel": "Ready For Travelling",
+    "readyTravelText": "Everything is arranged for an unforgettable experience."
+  },
+  "destinations": {
+    "popularTitle": "Popular Destinations",
+    "trendyTitle": "Tunisia's Best Regions",
+    "viewAll": "View All",
+    "regions": {
+      "djerba": "Djerba",
+      "sousse": "Sousse",
+      "tozeur": "Tozeur",
+      "monastir": "Monastir",
+      "kairouan": "Kairouan",
+      "tunis": "Tunis",
+      "sidiBouSaid": "Sidi Bou Said",
+      "ainDrahem": "Ain Drahem"
+    }
+  },
+  "whyChoose": {
+    "subtitle": "Why Choose Us",
+    "title": "We Recommend Beautiful Destinations Every Month",
+    "aboutText": "IFRIYA is your local agency specializing in travel and discovery across Tunisia. We know every corner of this beautiful country.",
+    "bestGuide": "Best Local Guide",
+    "bestGuideText": "Our certified local guides help you discover authentic Tunisia like no one else.",
+    "trustedExpertise": "Trusted Expertise",
+    "trustedExpertiseText": "Over 10 years of experience in Tunisian tourism.",
+    "exceptionalService": "Exceptional Service",
+    "exceptionalServiceText": "Personalized support from start to finish of your trip."
+  },
+  "tours": {
+    "popularTitle": "Popular Tours",
+    "title": "Tours in Tunisia",
+    "popular": "Popular Tours",
+    "bestTours": "Our Best Tours in Tunisia",
+    "discoverTitle": "Discover Our Best Tours in Tunisia",
+    "all": "All",
+    "groupTour": "Group Tour",
+    "familyTour": "Family",
+    "honeymoonTour": "Adventure",
+    "adventureTour": "Adventure",
+    "culturalTour": "Cultural",
+    "romantic": "Romantic",
+    "recommended": "Recommended",
+    "viewAll": "View All Tour",
+    "guests": "Guests",
+    "duration": "Duration",
+    "perPerson": "Per Person",
+    "bookNow": "Book Now",
+    "featured": "Featured",
+    "specialOffer": "Special Offer",
+    "reviews": "reviews"
+  },
+  "reviews": {
+    "count": "X reviews"
+  },
+  "tourNames": {
+    "djerbaDiscovery": "Djerba Discovery",
+    "tozeurAdventure": "Tozeur Desert Adventure",
+    "kairouanCultural": "Kairouan Cultural Circuit",
+    "sousseDiscovery": "Sousse & Monastir Discovery",
+    "tunisHeritage": "Tunis Heritage Tour",
+    "sidibousaidGetaway": "Sidi Bou Said Getaway"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Services We Offer",
+    "bestServices": "Best Services For You To Travel With Us",
+    "adventureGuide": "Adventure Guide",
+    "groupTravel": "Group Travel",
+    "culturalTour": "Cultural Tour",
+    "securePayment": "Secure Payment",
+    "travelInsurance": "Travel Insurance",
+    "assistance": "24/7 Assistance",
+    "readMore": "Read More"
+  },
+  "testimonials": {
+    "subtitle": "Testimonials",
+    "title": "What Our Clients Say",
+    "clientName": "Ahmed Ben Ali",
+    "clientTitle": "Traveler from France",
+    "reviewText": "Traveling in Tunisia with IFRIYA means discovering magical places. From Djerba to Tozeur, every day was a new adventure. I highly recommend it!"
+  },
+  "team": {
+    "subtitle": "Our Team",
+    "title": "Meet Our Expert Team",
+    "viewAll": "View All Team",
+    "ceo": "CEO & Founder",
+    "manager": "Tour Manager",
+    "guide": "Lead Guide",
+    "member1": "Ahmed Benali",
+    "member2": "Mohamed Khemiri",
+    "member3": "Youssef Mansour",
+    "title1": "Senior Tour Guide",
+    "title2": "Tunisia Specialist",
+    "title3": "Adventure Expert"
+  },
+  "blog": {
+    "subtitle": "Latest News",
+    "title": "Read Our Latest News & Blog Posts",
+    "viewAllPosts": "View All Posts",
+    "readMore": "Read More",
+    "categories": "Categories",
+    "all": "All",
+    "trending": "Trending",
+    "recent": "Recent",
+    "placeholderTitle": "Discover the Hidden Gems of Tunisia",
+    "placeholderText": "Explore the magical regions of Tunisia, from Djerba's pristine beaches to the golden dunes of the Sahara. Your adventure starts here!",
+    "comments": "Comments",
+    "blog1Title": "Top 10 Places to Visit in Tunisia This Year",
+    "blog2Title": "A Complete Guide to Djerba Island",
+    "blog3Title": "Exploring the Ancient Ruins of Carthage"
+  },
+  "cta": {
+    "title": "Ready to Explore Tunisia?",
+    "subtitle": "Don't wait, start your adventure today!",
+    "button": "Book Your Tour Now"
+  },
+  "newsletter": {
+    "title": "Subscribe to Our Newsletter",
+    "description": "Subscribe to our newsletter for the latest news and updates.",
+    "placeholder": "Enter Your Email",
+    "button": "Subscribe"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "tourPackages": "Tour Packages",
+    "popularTours": "Popular Tours",
+    "contactUs": "Contact Us",
+    "callUs": "Call Us 24/7",
+    "location": "Location",
+    "mailUs": "Mail Us",
+    "aboutUs": "About Us",
+    "latestBlog": "Latest Blog",
+    "popularServices": "Popular Services",
+    "copyright": "© IFRIYA - Discover Tunisia. All Rights Reserved."
+  },
+  "packages": {
+    "djerbaStay": "Djerba Discovery Stay",
+    "tozeurCircuit": "Tozeur Desert Circuit",
+    "sousseEscape": "Sousse Getaway",
+    "ainDrahemAdventure": "Ain Drahem Adventure",
+    "kairouanTour": "Kairouan & Sidi Bou Said",
+    "tunisDiscovery": "Tunis Discovery",
+    "honeymoon": "Honeymoon"
+  },
+  "buttons": {
+    "aboutUs": "About Us",
+    "viewAllTour": "View All Tour",
+    "discoverMore": "Discover More",
+    "bookNow": "Book Now",
+    "readMore": "Read More",
+    "getInTouch": "Get In Touch",
+    "exploreMore": "Explore More",
+    "goHome": "Go To Homepage"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get In Touch",
+    "getTouch": "Get In Touch",
+    "sendMessage": "Send Message",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "subject": "Subject",
+    "message": "Message",
+    "phone": "Phone",
+    "address": "Address",
+    "email": "Email",
+    "send": "Send Message"
+  },
+  "pageTitles": {
+    "services": "Our Services",
+    "destinations": "Destinations in Tunisia",
+    "tours": "Tours in Tunisia",
+    "aboutUs": "About IFRIYA",
+    "blog": "Travel Blog",
+    "contactUs": "Contact Us",
+    "serviceDetails": "Service Details",
+    "tourDetails": "Tour Details",
+    "destinationDetails": "Destination Details",
+    "blogDetails": "Blog Article",
+    "pageNotFound": "Page Not Found",
+    "pageNotFoundDesc": "The page you are looking for might have been removed, had its name changed or is temporarily unavailable."
+  }
+}

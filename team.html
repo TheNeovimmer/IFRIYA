@@ -1,0 +1,603 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- IFRIYA - Tunisia Travel Discovery -->
+<head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Title -->
+        <title>IFRIYA - Discover Tunisia's Best Destinations</title>
+
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/scrollCue.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        <style>
+            .lang-switcher {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                padding: 8px 14px;
+                background: #e67e22;
+                color: #fff;
+                border: none;
+                border-radius: 25px;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                min-width: 50px;
+                font-size: 14px;
+            }
+            .lang-switcher:hover {
+                background: #d35400;
+                transform: scale(1.05);
+            }
+            .lang-switcher i {
+                font-size: 16px;
+            }
+            .mobile-lang-switcher {
+                width: 100%;
+                justify-content: flex-start;
+                padding: 12px 16px;
+                background: transparent;
+                color: #333;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                margin-top: 10px;
+                font-size: 16px;
+            }
+            .mobile-lang-switcher:hover {
+                background: #e67e22;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <!-- Scroll Smoother -->
+        <div class="has-smooth" id="has_smooth"></div>
+        <!-- Start Top Header Area -->
+
+        <!-- Start Preloader Area -->
+        <!-- <div id="preloader">
+			<div id="container" class="container-preloader">
+				<div class="animation-preloader">
+					<div class="spinner"></div>
+					<div class="txt-loading">
+					</div>
+				</div>	
+				<div class="loader-section section-left"></div>
+				<div class="loader-section section-right"></div>
+			</div>
+		</div> -->
+        <!-- End Preloader Area -->
+        
+        <!-- Start Navbar Area -->
+        <nav class="navbar navbar-expand-lg navbar-area style-2 bg-transparent" id="navbar">
+            <div class="container-fluid side-padding position-relative">
+                <a class="navbar-brand logo-brand p-0" href="index.html">
+                    <img class="main-logo" src="assets/images/footer-logo.png" alt="image">
+                </a>
+                <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#offcanvasRight" role="button"
+                    aria-controls="offcanvasRight">
+                    <span class="burger-menu">
+                        <span class="top-bar"></span>
+                        <span class="middle-bar"></span>
+                        <span class="bottom-bar"></span>
+                    </span>
+                </a>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" data-i18n="nav.home">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html" data-i18n="nav.services">
+                                Services
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destinations.html" data-i18n="nav.destinations">
+                                Destinations
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tours.html" data-i18n="nav.tours">
+                                Tours
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html" data-i18n="nav.blog">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html" data-i18n="nav.contact">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="others-options">
+                    <div class="menu d-flex align-items-center gap-2 gap-md-4">
+                        <button type="button" class="search-btn fw-medium p-0 border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="ri-search-line search-btn"></i>
+                        </button>
+                        <a href="tour-details.html" class="default-btn" data-i18n="buttons.exploreMore">Explore More</a>
+                        <button class="lang-switcher" aria-label="Switch language">FR</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar Area -->
+        
+        <!-- Start Mobile Menu -->
+        <div class="side-modal mobile-navbar offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="mobile-menu">
+                    <li class="mobile-menu-list">
+                        <a href="index.html" data-i18n="nav.home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="mobile-menu-list">
+                        <a href="services.html" data-i18n="nav.services">
+                            Services
+                        </a>
+                    </li>
+
+                    <li class="mobile-menu-list">
+                        <a href="destinations.html" data-i18n="nav.destinations">
+                            Destinations
+                        </a>
+                    </li>
+
+                    <li class="mobile-menu-list">
+                        <a href="tours.html" data-i18n="nav.tours">
+                            Tours
+                        </a>
+                    </li>
+
+                    <li class="mobile-menu-list">
+                        <a href="blog.html" data-i18n="nav.blog">
+                            Blog
+                        </a>
+                    </li>
+
+                    <li class="mobile-menu-list">
+                        <a href="contact-us.html" data-i18n="nav.contact">
+                            Contact Us
+                        </a>
+                    </li>
+                    <li class="mobile-menu-list">
+                        <button class="lang-switcher mobile-lang-switcher" aria-label="Switch language">FR</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Mobile Menu -->
+
+        <!-- Start Modal Area -->
+        <div class="modal-area">
+            <div class="modal fade" id="exampleModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header p-0">
+                            <button type="button" class="search-btn" data-bs-dismiss="modal" aria-label="Close">
+                                <i class="ri-close-large-line"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="popup-form">
+                                <input type="text" class="form-control" placeholder="Search here...">
+                                <button type="submit" class="p-btn">
+                                    <i class="ri-search-line"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal Area -->
+
+        <!-- Start Page Banner Area -->
+        <div class="page-banner-area bg-center bg-cover bg-no-repeat position-relative z-1 px-150" style="background-image: url(assets/images/hero/page-banner-image.jpg);">
+            <div class="container">
+                <div class="page-banner-content">
+                    <h2 class="fs-50 text-white mb-4" data-i18n="pageTitles.team">Team</h2>
+                    <ul class="pe-0 ps-0 mb-0 list-unstyled align-items-center d-flex align-items-center gap-3">
+                        <li class="d-flex align-items-center gap-2">
+                            <a href="index.html" class="text-g fs-18 fw-medium">
+                                <i class="ri-home-8-fill text-g fs-18"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <i class="ri-arrow-right-long-line text-g fs-20"></i>
+                        </li>
+                        <li class="text-g fs-18 fw-medium">
+                            Team
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Page Banner Area -->
+
+        <!-- Start Team Area -->
+        <div class="team-area pxy-150 position-relative z-1 overflow-hidden">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="team-card position-relative z-1" id="my-element-1">
+                            <img src="assets/images/team/team-a.jpg" alt="image">
+                            <div class="team-card-body text-center">
+                                <ul class="social-list pe-0 ps-0 mb-3 list-unstyled d-flex align-items-center justify-content-center gap-2">
+                                    <li>
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <i class="ri-facebook-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/" target="_blank">
+                                            <i class="ri-twitter-x-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/" target="_blank">
+                                            <i class="ri-instagram-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/" target="_blank">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h3 class="fs-25 text-white" data-i18n="team.member1">Ahmed Benali</h3>
+                                <span class="text-g" data-i18n="team.title1">Senior Tour Guide</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="team-card position-relative z-1 active" id="my-element-2">
+                            <img src="assets/images/team/team-b.jpg" alt="image">
+                            <div class="team-card-body text-center">
+                                <ul class="social-list pe-0 ps-0 mb-3 list-unstyled d-flex align-items-center justify-content-center gap-2">
+                                    <li>
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <i class="ri-facebook-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/" target="_blank">
+                                            <i class="ri-twitter-x-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/" target="_blank">
+                                            <i class="ri-instagram-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/" target="_blank">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h3 class="fs-25 text-white" data-i18n="team.member1">Ahmed Benali</h3>
+                                <span class="text-g" data-i18n="team.title1">Senior Tour Guide</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="team-card position-relative z-1" id="my-element-3">
+                            <img src="assets/images/team/team-c.jpg" alt="image">
+                            <div class="team-card-body text-center">
+                                <ul class="social-list pe-0 ps-0 mb-3 list-unstyled d-flex align-items-center justify-content-center gap-2">
+                                    <li>
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <i class="ri-facebook-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/" target="_blank">
+                                            <i class="ri-twitter-x-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/" target="_blank">
+                                            <i class="ri-instagram-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/" target="_blank">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h3 class="fs-25 text-white" data-i18n="team.member1">Ahmed Benali</h3>
+                                <span class="text-g" data-i18n="team.title1">Senior Tour Guide</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="team-card position-relative z-1" id="my-element-4">
+                            <img src="assets/images/team/team-d.jpg" alt="image">
+                            <div class="team-card-body text-center">
+                                <ul class="social-list pe-0 ps-0 mb-3 list-unstyled d-flex align-items-center justify-content-center gap-2">
+                                    <li>
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <i class="ri-facebook-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/" target="_blank">
+                                            <i class="ri-twitter-x-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/" target="_blank">
+                                            <i class="ri-instagram-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/" target="_blank">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h3 class="fs-25 text-white" data-i18n="team.member1">Ahmed Benali</h3>
+                                <span class="text-g" data-i18n="team.title1">Senior Tour Guide</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="team-card position-relative z-1" id="my-element-5">
+                            <img src="assets/images/team/team-a.jpg" alt="image">
+                            <div class="team-card-body text-center">
+                                <ul class="social-list pe-0 ps-0 mb-3 list-unstyled d-flex align-items-center justify-content-center gap-2">
+                                    <li>
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <i class="ri-facebook-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/" target="_blank">
+                                            <i class="ri-twitter-x-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/" target="_blank">
+                                            <i class="ri-instagram-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/" target="_blank">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h3 class="fs-25 text-white" data-i18n="team.member1">Ahmed Benali</h3>
+                                <span class="text-g" data-i18n="team.title1">Senior Tour Guide</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="team-card position-relative z-1" id="my-element-6">
+                            <img src="assets/images/team/team-b.jpg" alt="image">
+                            <div class="team-card-body text-center">
+                                <ul class="social-list pe-0 ps-0 mb-3 list-unstyled d-flex align-items-center justify-content-center gap-2">
+                                    <li>
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <i class="ri-facebook-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/" target="_blank">
+                                            <i class="ri-twitter-x-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/" target="_blank">
+                                            <i class="ri-instagram-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/" target="_blank">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h3 class="fs-25 text-white" data-i18n="team.member1">Ahmed Benali</h3>
+                                <span class="text-g" data-i18n="team.title1">Senior Tour Guide</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Team Area -->
+
+        <!-- Start Footer Area -->
+        <div class="footer-area pxy-150 bg-info1 position-relative">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
+                        <div class="footer-widget pe-xxl-4">
+                            <div class="footer-logo mb-30">
+                                <a href="index.html">
+                                    <img src="assets/images/footer-logo.png" alt="image" style="max-width: 140px;">
+                                </a>
+                            </div>
+                            <h3 class="fs-25 mb-3 text-white" data-i18n="newsletter.title">Subscribe to Our Newsletter</h3>
+                            <p class="mb-4 text-g" data-i18n="newsletter.description">Receive our latest news and special offers.</p>
+                            <form class="newsletter-form">
+                                <input type="text" class="form-control" placeholder="Enter Your Email">
+                                <button type="submit" class="seand"><i class="ri-send-plane-line"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                        <div class="footer-widget">
+                            <h3 class="fs-25 mb-4 text-white" data-i18n="footer.quickLinks">Quick Links</h3>
+                            <ul class="pe-0 ps-0 mb-0 list-unstyled">
+                                <li class="mb-2 mb-md-3">
+<a href="about-us.html" data-i18n="footer.aboutUs">
+                                         About Us
+                                     </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+<a href="destinations.html" data-i18n="footer.destinations">
+                                         Destinations
+                                     </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+<a href="blog.html" data-i18n="footer.latestBlog">
+                                         Latest Blog
+                                     </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+<a href="tours.html" data-i18n="footer.tourPackages">
+                                         Tour Packages
+                                     </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+<a href="services.html" data-i18n="footer.popularServices">
+                                         Popular Services
+                                     </a>
+                                </li>
+                                <li>
+<a href="contact-us.html" data-i18n="footer.contactUs">
+                                         Contact Us
+                                     </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                        <div class="footer-widget">
+                            <h3 class="fs-25 mb-4 text-white" data-i18n="footer.popularTours">Popular Tours</h3>
+                            <ul class="pe-0 ps-0 mb-0 list-unstyled">
+                                <li class="mb-2 mb-md-3">
+<a href="destinations.html" data-i18n="packages.djerbaStay">
+                                         Djerba & Zarzis Tour
+                                     </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+<a href="destinations.html" data-i18n="packages.sousseEscape">
+                                         Sousse & Monastir Stay
+                                     </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+<a href="tour-details.html" data-i18n="packages.tozeurCircuit">
+                                         Tozeur & Nefta Adventure
+                                     </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+<a href="destinations.html" data-i18n="packages.kairouanTour">
+                                         Tunis & Sidi Bou Said Trip
+                                     </a>
+                                </li>
+                                <li class="mb-2 mb-md-3">
+<a href="tour-details.html" data-i18n="packages.tunisDiscovery">
+                                         Kairouan & Sbeitla Journey
+                                     </a>
+                                </li>
+                                <li>
+<a href="destinations.html" data-i18n="packages.ainDrahemAdventure">
+                                         Southern Tunisia Circuit
+                                     </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-3 col-lg-6 col-md-6">
+                        <div class="footer-widget left-padding">
+                            <h3 class="fs-25 mb-4 text-white" data-i18n="footer.contactUs">Contact Us</h3>
+                            <div class="contact-warps mb-3 mb-md-4 d-flex align-items-center gap-2 gap-md-4">
+                                <div class="icon">
+                                    <i class="ri-phone-line"></i>
+                                </div>
+                                <div class="content">
+                                    <span class="d-block mb-2" data-i18n="footer.callUs">Call Us 7/24</span>
+                                    <a href="tel:+216XXXXXXXX" class="fs-18">+216 XX XXX XXXX</a>
+                                </div>
+                            </div>
+                            <div class="contact-warps mb-3 mb-md-4 d-flex align-items-center gap-2 gap-md-4">
+                                <div class="icon">
+                                    <i class="ri-map-pin-line"></i>
+                                </div>
+                                <div class="content">
+                                    <span class="d-block mb-2" data-i18n="footer.location">Location</span>
+                                    <a href="https://www.google.com/maps/search/1234+Builder+Avenue,+Suite+200,+Houston,+TX+77002,+US+map/@29.7535089,-95.3925406,6049m/data=!3m2!1e3!4b1?entry=ttu&amp;g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D" class="fs-18">Tunis, Tunisia</a>
+                                </div>
+                            </div>
+                            <div class="contact-warps d-flex align-items-center gap-2 gap-md-4">
+                                <div class="icon">
+                                    <i class="ri-mail-open-line"></i>
+                                </div>
+                                <div class="content">
+                                    <span class="d-block mb-2" data-i18n="footer.mailUs">Mail Us</span>
+                                    <a href="mailto:contact@ifriya.tn" class="fs-18">contact@ifriya.tn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shape-image">
+                <img class="shape" src="assets/images/shapes/plane1.png" alt="image">
+            </div>
+        </div>
+        <!-- End Footer Area -->
+         
+        <!-- Start Copyright Area -->
+        <div class="copyright-area border-top border-opacity-50 py-4 py-xl-4 overflow-hidden bg-info1">
+            <div class="container-fluid wa-padding">
+                <p class="text-white mb-0 text-center" data-i18n="footer.copyright">
+                    © IFRIYA - Discover Tunisia. All Rights Reserved. 
+                    
+                </p>
+            </div>
+        </div>
+        <!-- End Copyright Area -->
+         
+        <!-- Start Go Top Button -->
+        <div class="go-top d-flex align-items-center active">
+            <i class="ri-arrow-up-long-line"></i>
+        </div>
+        <!-- End Go Top Button -->
+
+        <!-- JS Files -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/smoothscroll.min.js"></script>
+        <script src="assets/js/fslightbox.min.js"></script>
+        <script src="assets/js/scrollCue.min.js"></script>
+        <script src="assets/js/i18n.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+
+<!-- IFRIYA - Tunisia Travel Discovery -->
+</html>

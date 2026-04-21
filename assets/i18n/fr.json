@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "siteTitle": "IFRIYA - Découvrez les Meilleures Destinations de Tunisie",
+    "siteDescription": "Votre partenaire voyage de confiance pour découvrir les plus belles destinations de Tunisie"
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "destinations": "Destinations",
+    "tours": "Circuits",
+    "blog": "Blog",
+    "contact": "Contactez-Nous",
+    "exploreMore": "Explorer Plus"
+  },
+  "hero": {
+    "subtitle": "Voyage & Découverte en Tunisie",
+    "title": "Découvrez les Plus Belles Destinations de Tunisie",
+    "description": "Explorez les régions magiques de Tunisie, de Djerba aux montagnes de Ain Drahem. Une aventure inoubliable vous attend!",
+    "discoverMore": "Découvrir Plus",
+    "getInTouch": "Contactez-Nous"
+  },
+  "booking": {
+    "location": "Région",
+    "selectLocation": "Sélectionner",
+    "tourType": "Type de Voyage",
+    "selectTourType": "Type",
+    "tourDate": "Date de Voyage",
+    "activity": "Activité",
+    "selectActivity": "Choisir",
+    "guests": "Voyageurs",
+    "selectGuests": "Voyageurs",
+    "search": "Rechercher"
+  },
+  "about": {
+    "subtitle": "À Propos d'IFRIYA",
+    "title": "Votre Partenaire Voyage en Tunisie",
+    "easyBooking": "Réservation Facile & Rapide",
+    "bestPrice": "Meilleur Prix Garanti",
+    "localGuides": "Guides Locaux Expérimentés",
+    "customTours": "Circuits Sur Mesure",
+    "mission": "Notre Mission",
+    "missionText": "Vous faire découvrir l'authenticité de la Tunisie, ses villages, ses déserts et ses côtes méditerranéennes.",
+    "expertise": "Expertise Locale",
+    "expertiseText": "Plus de 10 ans d'expérience pour vous offrir les meilleures visites et excursions en Tunisie."
+  },
+  "features": {
+    "chooseDestination": "Choisir Destination",
+    "chooseDestinationText": "Sélectionnez votre destination préférée et procédez à votre réservation.",
+    "makePayment": "Effectuer le Paiement",
+    "makePaymentText": "Options de paiement sécurisées pour votre tranquillité.",
+    "readyTravel": "Prêt à Voyager",
+    "readyTravelText": "Tout est arrangé pour une expérience inoubliable."
+  },
+  "destinations": {
+    "popularTitle": "Destinations Populaires",
+    "trendyTitle": "Les Plus Belles Régions de Tunisie",
+    "viewAll": "Voir Tout",
+    "regions": {
+      "djerba": "Djerba",
+      "sousse": "Sousse",
+      "tozeur": "Tozeur",
+      "monastir": "Monastir",
+      "kairouan": "Kairouan",
+      "tunis": "Tunis",
+      "sidiBouSaid": "Sidi Bou Said",
+      "ainDrahem": "Ain Drahem"
+    }
+  },
+  "whyChoose": {
+    "subtitle": "Pourquoi Nous Choisir",
+    "title": "Nous Recommandons les Plus Belles Destinations Chaque Mois",
+    "aboutText": "IFRIYA est votre agence locale spécialisée dans le voyage et la découverte de la Tunisie. Nous connaissons chaque recoin de ce magnifique pays.",
+    "bestGuide": "Meilleur Guide Local",
+    "bestGuideText": "Nos guides locaux certifiés vous font découvrir la Tunisie authentique comme personne.",
+    "trustedExpertise": "Expertise Confirmée",
+    "trustedExpertiseText": "Plus de 10 ans d'expérience dans le tourisme tunisien.",
+    "exceptionalService": "Service Exceptionnel",
+    "exceptionalServiceText": "Accompagnement personnalisé du début à la fin de votre voyage."
+  },
+  "tours": {
+    "popularTitle": "Circuits Populaires",
+    "title": "Circuits en Tunisie",
+    "popular": "Circuits Populaires",
+    "bestTours": "Nos Meilleurs Circuits en Tunisie",
+    "discoverTitle": "Découvrez Nos Meilleurs Circuits en Tunisie",
+    "all": "Tous",
+    "groupTour": "Circuit Groupe",
+    "familyTour": "Famille",
+    "honeymoonTour": "Aventure",
+    "adventureTour": "Aventure",
+    "culturalTour": "Culturel",
+    "romantic": "Romantique",
+    "recommended": "Recommandé",
+    "viewAll": "Voir Tous les Circuits",
+    "guests": "Voyageurs",
+    "duration": "Durée",
+    "perPerson": "Par Personne",
+    "bookNow": "Réserver",
+    "featured": "Populaire",
+    "specialOffer": "Offre Spéciale",
+    "reviews": "avis"
+  },
+  "reviews": {
+    "count": "X avis"
+  },
+  "tourNames": {
+    "djerbaDiscovery": "Découverte de Djerba",
+    "tozeurAdventure": "Aventure Saharienne à Tozeur",
+    "kairouanCultural": "Circuit Culturel Kairouan",
+    "sousseDiscovery": "Découverte Sousse & Monastir",
+    "tunisHeritage": "Circuit Héritage Tunis",
+    "sidibousaidGetaway": "Escapade Sidi Bou Said"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Services Proposés",
+    "bestServices": "Les Meilleurs Services Pour Voyager Avec Nous",
+    "adventureGuide": "Guide d'Aventure",
+    "groupTravel": "Voyage en Groupe",
+    "culturalTour": "Circuit Culturel",
+    "securePayment": "Paiement Sécurisé",
+    "travelInsurance": "Assurance Voyage",
+    "assistance": "Assistance 24/7",
+    "readMore": "Lire Plus"
+  },
+  "testimonials": {
+    "subtitle": "Témoignages",
+    "title": "Ce Que Disent Nos Clients",
+    "clientName": "Ahmed Ben Ali",
+    "clientTitle": "Voyageur de France",
+    "reviewText": "Voyager en Tunisie avec IFRIYA, c'est découvrir des endroits magiques. De Djerba à Tozeur, chaque journée était une nouvelle aventure. Je recommande vivement!"
+  },
+  "team": {
+    "subtitle": "Notre Équipe",
+    "title": "Découvrez Notre Équipe Experte",
+    "viewAll": "Voir Toute l'Équipe",
+    "ceo": "PDG & Fondateur",
+    "manager": "Responsable Circuits",
+    "guide": "Guide Principal",
+    "member1": "Ahmed Benali",
+    "member2": "Mohamed Khemiri",
+    "member3": "Youssef Mansour",
+    "title1": "Guide Senior",
+    "title2": "Spécialiste de la Tunisie",
+    "title3": "Expert Aventure"
+  },
+  "blog": {
+    "subtitle": "Dernières Nouvelles",
+    "title": "Lire Nos Dernières Nouvelles et Articles",
+    "viewAllPosts": "Voir Tous les Articles",
+    "readMore": "Lire Plus",
+    "categories": "Catégories",
+    "all": "Tous",
+    "trending": "Tendances",
+    "recent": "Récent",
+    "placeholderTitle": "Découvrez les Trésors Cachés de la Tunisie",
+    "placeholderText": "Explorez les régions magiques de Tunisie, des plages immaculées de Djerba aux dunes dorées du Sahara. Votre aventure commence ici!",
+    "comments": "Commentaires",
+    "blog1Title": "Top 10 Endroits à Visiter en Tunisie Cette Année",
+    "blog2Title": "Guide Complet de l'Île de Djerba",
+    "blog3Title": "Explorer les Ruines Antiques de Carthage"
+  },
+  "cta": {
+    "title": "Prêt à Explorer la Tunisie?",
+    "subtitle": "N'attendez pas, commencez votre aventure aujourd'hui!",
+    "button": "Réservez Votre Circuit"
+  },
+  "newsletter": {
+    "title": "Inscrivez-vous à Notre Newsletter",
+    "description": "Recevez nos dernières news et offres spéciales.",
+    "placeholder": "Entrez Votre Email",
+    "button": "S'abonner"
+  },
+  "footer": {
+    "quickLinks": "Liens Rapides",
+    "tourPackages": "Circuits",
+    "popularTours": "Circuits Populaires",
+    "contactUs": "Contactez-Nous",
+    "callUs": "Appelez-Nous 24/7",
+    "location": "Adresse",
+    "mailUs": "Écrivez-Nous",
+    "aboutUs": "À Propos",
+    "latestBlog": "Blog Voyage",
+    "popularServices": "Nos Services",
+    "copyright": "© IFRIYA - Découvrez la Tunisie. Tous droits réservés."
+  },
+  "packages": {
+    "djerbaStay": "Séjour Découverte à Djerba",
+    "tozeurCircuit": "Circuit Saharien Tozeur",
+    "sousseEscape": "Escapade Sousse",
+    "ainDrahemAdventure": "Aventure Ain Drahem",
+    "kairouanTour": "Kairouan & Sidi Bou Said",
+    "tunisDiscovery": "Découverte Tunis",
+    "honeymoon": "Lune de Miel"
+  },
+  "buttons": {
+    "aboutUs": "À Propos",
+    "viewAllTour": "Voir Tous les Circuits",
+    "discoverMore": "Découvrir Plus",
+    "bookNow": "Réserver",
+    "readMore": "Lire Plus",
+    "getInTouch": "Contactez-Nous",
+    "exploreMore": "Explorer Plus",
+    "goHome": "Aller à l'Accueil"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Prenez Contact",
+    "getTouch": "Prenez Contact",
+    "sendMessage": "Envoyer un Message",
+    "yourName": "Votre Nom",
+    "yourEmail": "Votre Email",
+    "subject": "Sujet",
+    "message": "Message",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "email": "Email",
+    "send": "Envoyer"
+  },
+  "pageTitles": {
+    "services": "Nos Services",
+    "destinations": "Destinations en Tunisie",
+    "tours": "Circuits en Tunisie",
+    "aboutUs": "À Propos de IFRIYA",
+    "blog": "Blog Voyage",
+    "contactUs": "Contactez-Nous",
+    "serviceDetails": "Détail du Service",
+    "tourDetails": "Détail du Circuit",
+    "destinationDetails": "Détail de Destination",
+    "blogDetails": "Article de Blog",
+    "pageNotFound": "Page Non Trouvée",
+    "pageNotFoundDesc": "La page que vous recherchez a peut-être été supprimée, son nom a changé ou est temporairement indisponible."
+  }
+}
